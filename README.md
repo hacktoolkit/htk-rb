@@ -23,6 +23,11 @@ A set of convenience utils for Ruby. A loosely inspired, not-quite-close-to-feat
     (Alternative link to screenshot above: https://cl.ly/436cfb4383a2)
 1. Profit!
 
+## Tips on Location of HTK Module 
+
+1. You can place it outside of your app directory tree, and then symlink it inside.
+1. To not be nagged by the presence of the `htk` directory whenever you do `git status`, add `htk` to your `.git/info/exclude` file (like `.gitignore`, but only in your local repository, not checked in).
+
 # Authors and Maintainers
 
 [Hacktoolkit](https://github.com/hacktoolkit) and [Jonathan Tsai](https://github.com/jontsai)
