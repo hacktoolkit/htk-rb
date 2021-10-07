@@ -1,1 +1,3 @@
 local_settings.rb
+tmp/
+test.rb
