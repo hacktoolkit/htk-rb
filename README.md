@@ -32,7 +32,9 @@ A set of convenience utils for Ruby. A loosely inspired, not-quite-close-to-feat
 
 - C# - https://github.com/hacktoolkit/csharp-htk
 - PHP - https://github.com/hacktoolkit/php-htk
-- Python - https://github.com/hacktoolkit/python-htk
+- Python (full) - https://github.com/hacktoolkit/python-htk
+- Python (lite) - https://github.com/hacktoolkit/pyhtk-lite
+- Ruby - https://github.com/hacktoolkit/htk-rb
 
 # Authors and Maintainers
 
