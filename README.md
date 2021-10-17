@@ -1,6 +1,6 @@
 # HTK for Ruby
 
-A set of convenience utils for Ruby. A loosely inspired, not-quite-close-to-feature-parity port of [`pyhtk-lite`](https://github.com/hacktoolkit/pyhtk-lite).
+A set of convenience utils for Ruby. A loosely inspired, not-quite-close-to-feature-parity port of [`python-htk-lite`](https://github.com/hacktoolkit/python-htk-lite).
 
 # Features
 
@@ -33,7 +33,7 @@ A set of convenience utils for Ruby. A loosely inspired, not-quite-close-to-feat
 - C# - https://github.com/hacktoolkit/csharp-htk
 - PHP - https://github.com/hacktoolkit/php-htk
 - Python (full) - https://github.com/hacktoolkit/python-htk
-- Python (lite) - https://github.com/hacktoolkit/pyhtk-lite
+- Python (lite) - https://github.com/hacktoolkit/python-htk-lite
 - Ruby - https://github.com/hacktoolkit/htk-rb
 
 # Authors and Maintainers
