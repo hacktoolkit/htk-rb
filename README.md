@@ -1,6 +1,6 @@
 # HTK for Ruby
 
-A set of convenience utils for Ruby. A loosely inspired, not-quite-close-to-feature parity port of [`pyhtk-lite`](https://github.com/hacktoolkit/pyhtk-lite).
+A set of convenience utils for Ruby. A loosely inspired, not-quite-close-to-feature-parity port of [`pyhtk-lite`](https://github.com/hacktoolkit/pyhtk-lite).
 
 # Features
 
