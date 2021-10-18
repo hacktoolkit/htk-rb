@@ -1,7 +1,7 @@
-require 'singleton'
 require 'date'
 require 'fileutils'
 require 'json'
+require 'singleton'
 
 DEFAULT_FILE_PATH = './tmp/fdebug.log'
 
