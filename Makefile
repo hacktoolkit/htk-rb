@@ -8,8 +8,8 @@ clean:
 
 ## build - Builds the Ruby Gem
 build: clean
-	gem build htk-rb.gemspec
+	gem build htk.gemspec
 
 ## release - Releases the Ruby Gem
 release: build
-	gem push htk-rb-*.gem
+	gem push htk-*.gem
