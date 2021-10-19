@@ -5,7 +5,7 @@ A set of convenience utils for Ruby. A loosely inspired, not-quite-close-to-feat
 # Features
 
 1. Debug via Slack using `::Htk::Utils.slack_debug('some debugging message')`. The best of `println` debugging, without the inconvenience of visually fishing for one message out of thousands of log lines.
-1. Debug via writing to local file using `fdebug` (``::Htk::Utils.fdebug('some debugging message')`) and `fdebug_json` (`::Htk::Utils.fdebug_json(some_object)`). Certifiably awesome, fast, and secure.
+1. Debug via writing to local file using `fdebug` (`::Htk::Utils.fdebug('some debugging message')`) and `fdebug_json` (`::Htk::Utils.fdebug_json(some_object)`). Certifiably awesome, fast, and secure.
 
 # How to Use This Awesome?
 
