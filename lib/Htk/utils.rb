@@ -3,7 +3,7 @@ require 'fileutils'
 require 'json'
 require 'singleton'
 
-DEFAULT_FILE_PATH = './tmp/fdebug.log'
+DEFAULT_FILE_PATH = '/tmp/fdebug.log'
 
 module Htk
   class FDebugCounter
