@@ -36,7 +36,7 @@ module Htk
     end
 
     ##
-    # Dumps the given text to the given file. If file name omited, default path is './tmp/fdebug.log'
+    # Dumps the given text to the given file. If file_path omited, uses 'DEFAULT_FILE_PATH'
 
     def fdebug(text, file_path=DEFAULT_FILE_PATH)
       counter = ::Htk::FDebugCounter.instance
@@ -59,7 +59,7 @@ module Htk
     end
 
     ##
-    # Dumps given object to given file as JSON. If file name omited, default path is './tmp/fdebug.log'
+    # Dumps given object to given file as JSON. If file_path omited, default path is 'DEFAULT_FILE_PATH'
     
     def fdebug_json(obj, file_path=DEFAULT_FILE_PATH)
       data = obj.to_json
