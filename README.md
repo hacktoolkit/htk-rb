@@ -41,7 +41,7 @@ A set of convenience utils for Ruby. An inspired, close-to-feature-parity port o
 
 1. (**Recommended**) Create a BASH alias or similar: `alias fdb='touch /tmp/fdebug.log; tail -f /tmp/fdebug.log'`
     1. In a separate window used for debugging, run `fdb` to watch the logs roll in.
-1. ::Htk::Utils.slack_debug('Not all heroes wear capes')
+1. ::Htk::Utils.fdebug('Not all heroes wear capes')
 
 # See Also
 
