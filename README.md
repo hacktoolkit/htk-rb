@@ -46,6 +46,7 @@ A set of convenience utils for Ruby. An inspired, close-to-feature-parity port o
 # See Also
 
 - C# - https://github.com/hacktoolkit/csharp-htk
+- JavaScript - https://github.com/hacktoolkit/htk.js
 - PHP - https://github.com/hacktoolkit/php-htk
 - Python (full) - https://github.com/hacktoolkit/python-htk
 - Python (lite) - https://github.com/hacktoolkit/python-htk-lite
