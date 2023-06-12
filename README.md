@@ -56,7 +56,7 @@ A set of convenience utils for Ruby. An inspired, close-to-feature-parity port o
 
 - [Hacktoolkit](https://github.com/hacktoolkit)
 - [Jonathan Tsai](https://github.com/jontsai)
-- [Gökhan Öztürk](https://github.com/Quanthir)
+- [Gökhan Öztürk](https://github.com/goztrk)
 
 # License
 
