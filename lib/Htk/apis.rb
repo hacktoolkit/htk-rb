@@ -12,14 +12,9 @@ module Htk
 
       def connection(&block)
         Faraday.new(url) do |faraday|
-          faraday.use ::Middleware::Mode
-          faraday.use ::Middleware::AuthParams
-          faraday.use ::Middleware::UseCanary
-          faraday.use ::Middleware::Timeout
-          faraday.use ::Middleware::RequestUuid
           faraday.use ::Faraday::Request::Multipart
           faraday.use ::Faraday::Request::UrlEncoded
-          faraday.use ::Faraday::Adapter::NetHttp
+          faraday.adapter ::Faraday::Adapter::NetHttp
 
           block.call(faraday) if block_given?
         end

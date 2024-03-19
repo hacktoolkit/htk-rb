@@ -33,6 +33,7 @@ module Htk
           'text' => text,
         }.to_json
       end
+      response.status
     end
 
     ##
@@ -65,6 +66,10 @@ module Htk
       data = obj.to_json
       fdebug(JSON.pretty_generate(data), file_path)
     end
+
+    alias_method :sdb, :slack_debug
+    alias_method :fdb, :fdebug
+    alias_method :fdb_json, :fdebug_json
   end
 
   Utils = Base.new
