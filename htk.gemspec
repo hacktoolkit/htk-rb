@@ -1,7 +1,7 @@
 # coding: utf-8
 Gem::Specification.new do |s|
   s.name = 'htk'
-  s.version = '0.1.0'
+  s.version = '0.2.0'
   s.licenses = [
     'MIT'
   ]
